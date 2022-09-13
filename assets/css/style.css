@@ -41,13 +41,13 @@ p{
 
 #ABOUT{
     height: 1000px;
-    background: url(../images/bass1.png) no-repeat center / cover;
+    background: url(../images/497AACCB-EF6A-4D30-9626-8B0338090AC6.png) no-repeat center / cover;
     color: white;
 }
 
 #RULE{
     height: 1000px;
-    background: url(../images/bass2.png) no-repeat center / cover;
+    background: url(../images/bass1.png) no-repeat center / cover;
     color: white;
 }
 
@@ -64,6 +64,30 @@ p{
     padding: 150px 200px;
     height: 700px;
     text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+	/* 900px以下に適用されるCSS（タブレット用） */
+
+    .content{
+        height: 2300px;
+    }
+
+    .content-item p{
+        font-size: 15px
+    }
+
+    .rule-background {
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: 150px;
+        padding: 150px 100px;
+        height: 700px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
 }
 
 ::-webkit-scrollbar{
