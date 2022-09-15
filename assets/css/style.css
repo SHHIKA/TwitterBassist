@@ -57,6 +57,12 @@ p{
     background: url(../images/IMG_3875.png) no-repeat center / cover;
 }
 
+#TIMELINE{
+    margin: 50px;
+    height: 1000px;
+    text-align: center;
+}
+
 .contact-background{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 150px 100px;
