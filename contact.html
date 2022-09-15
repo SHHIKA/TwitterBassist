@@ -13,26 +13,37 @@
 
 </head>
 <body>
-    <header class="header">
-        <h1 class="title">TwitterBassist</h1>
+    <header>
         <nav>
-            <ul class="menu-group">
-                <li class="menu-item"><a href="index.html">HOME</a></li>
-                <li class="menu-item"><a href="index.html#ABOUT">ABOUT</a></li>
-                <li class="menu-item"><a href="index.html#RULE">RULE</a></li>
-                <li class="menu-item"><a href="contact.html">CONTACT</a></li>
-            </ul>
+            <div class="drawer">
+                <div id="logo"><a href="index.html">TwitterBassist</a></div>
+                <div class="Toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="menu">
+                <ul style="list-style: none;">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#ABOUT">ABOUT</a></li>
+                    <li><a href="index.html#RULE">RULE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main class="content">
-        <div class="contact">
-            <h2>コンタクト</h2>
-            <br>
-            <p>Twitterベーシストの会についての質問/要望は <a href="https://discord.com/invite/HrcwCF3PgW" target="_blank" rel="noopener noreferrer">Discordサーバー</a> にてお願いします</p>
-            <p>このサイトについての質問/要望はshikaまでお願いします</p>
-            <p>Discord: SHHIKA#4832</p>
-            <p>E-mail: miaivalse@gmail.com</p>
+        <div id="CONTACT" class="content-item">
+            <div class="contact-background">
+                <h2>コンタクト</h2>
+                <br>
+                <p>Twitterベーシストの会についての質問/要望は <a class="twitter" href="https://discord.com/invite/HrcwCF3PgW" target="_blank" rel="noopener noreferrer">Discordサーバー</a> にてお願いします</p>
+                <p>このサイトについての質問/要望はshikaまでお願いします</p>
+                <p>Discord: SHHIKA#4832</p>
+                <p>E-mail: miaivalse@gmail.com</p>
+            </div>
         </div>
     </main>
 
@@ -73,19 +84,7 @@
         </div>
     </footer>
 
-    <style>
-        .content{
-            height: auto;
-        }
-
-        .contact{
-            background-color: white;
-            margin: 200px 300px;
-            padding: 20px;
-            height: 400px;
-
-            text-align: center;
-        }
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/menu.js"></script>
 </body>
 </html>
